@@ -1,6 +1,6 @@
 <?php
 
-namespace Resque\Plugins;
+namespace ResqueRetry\Plugins;
 
 class ExponentialRetry extends Retry {
 

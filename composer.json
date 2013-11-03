@@ -1,10 +1,10 @@
 {
-    "name": "jaaprood/php-resque-retry",
+    "name": "careerlinkvn/php-resque-retry",
     "description": "A php-resque plugin; provides retry, delay and exponential backoff support to php-resque jobs",
     "require": {
-        "chrisboulton/php-resque": "dev-master",
-        "chrisboulton/php-resque-scheduler": "dev-master",
-        "jaaprood/php-resque-plugin": "dev-master"
+        "careerlinkvn/php-resque": "1.2.1",
+        "careerlinkvn/php-resque-scheduler": "1.1.1",
+        "careerlinkvn/php-resque-plugin": "1.2.1"
     },
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Resque": "lib/"
+            "ResqueRetry": "lib/"
         }
     }
 }

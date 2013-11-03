@@ -1,6 +1,7 @@
 <?php
 
-namespace Resque\Failure;
+namespace ResqueRetry\Failure;
+
 use \Resque_Failure_Redis;
 use \Resque;
 

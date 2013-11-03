@@ -1,6 +1,7 @@
 <?php
 
-namespace Resque\Plugins;
+namespace ResqueRetry\Plugins;
+
 use \Resque;
 use \ResqueScheduler;
 
@@ -66,7 +67,8 @@ class Retry {
 		$retryDelay = $this->retryDelay($job);
 		
 		$queue = $job->queue;
-		$class = $job->getClass();
+		//$class = $job->getClass();
+		$class = $job->payload['class'];
 		$arguments = $job->getArguments();
 
 		$retryingAt = time() + $retryDelay;
