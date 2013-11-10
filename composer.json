@@ -4,7 +4,7 @@
     "require": {
         "careerlinkvn/php-resque": "1.2.1",
         "careerlinkvn/php-resque-scheduler": "1.1.1",
-        "careerlinkvn/php-resque-plugin": "1.2.1"
+        "careerlinkvn/php-resque-plugin": "1.2.2"
     },
     "license": "MIT",
     "authors": [
